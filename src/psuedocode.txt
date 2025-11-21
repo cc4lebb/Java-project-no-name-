@@ -1,0 +1,24 @@
+Main method
+    give port number // 63342
+    host name variable = args[0]
+    server socket variable (portNumber)
+
+    continuous loop // used to constatnly check if there is a connection on that specific port when running
+        client socket = the server socket being accepted
+
+        // get the output of the client socket
+        PrintWriter variable
+            /*
+            "PrintWriter(OutputStream out, boolean autoFlush)"
+            OutputStream refers to the variable, and then the boolean, should be set to true because it ensures that every
+            line of text is sent immediately. it is terminated by a newline character (/n)
+            */
+
+        // get the input of the client socket
+        BufferedReader variable
+            /*
+            "BufferedReader(Reader in)"
+            e.g. BufferedReader in = new BufferedReader(new InputStreamReader(clientSocket.getInputStream()));
+            */
+
+
