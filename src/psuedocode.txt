@@ -21,4 +21,7 @@ Main method
             e.g. BufferedReader in = new BufferedReader(new InputStreamReader(clientSocket.getInputStream()));
             */
 
+        // how to communicate the message back
+        conditional branch where if a connection is recieved, send a message back
+
 
