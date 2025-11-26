@@ -38,7 +38,7 @@ public class HttpServer{
         String okResponse =
                 "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\n\r\nUser data here";
 
-        byte[] data = okResponse.getBytes("UTF-8");
+        byte[] data = okResponse.getBytes("UTF-8"); //encodes bytes back into string
 
         // this is written to command line when curled
         output.write(data);
